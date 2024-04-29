@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://kpl4ug7qsend"]
+
+[ext_resource type="Texture2D" uid="uid://bdg4f8w4lnboo" path="res://icon.svg" id="1_qsf1e"]
+[ext_resource type="Script" path="res://Abdullah.cs" id="2_6gx5l"]
+
+[node name="Abdullah" type="Sprite2D"]
+position = Vector2(234, 179)
+texture = ExtResource("1_qsf1e")
+script = ExtResource("2_6gx5l")
+
+[node name="Child" type="Sprite2D" parent="."]
+position = Vector2(85.9488, 38.5591)
+scale = Vector2(0.445313, 0.445313)
+texture = ExtResource("1_qsf1e")
